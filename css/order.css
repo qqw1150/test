@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0}
+body{font-size: 0.8125rem;color: #5A5657;}
+.container{
+    background-color: white;
+    margin: 0 1.4rem;
+}
+.container .top{
+    height: 80px;
+    display: flex;
+    justify-content:left;
+    align-items:Center;
+}
+.container .top img{
+    width: 200px;
+    height: 30.927835051546392px;
+    display: block;
+}
+.container .o_info{
+    background-color: #fef3e7;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.container .o_info .pic{
+    padding: 20px 0;
+}
+.container .o_info .pic img{
+    width: 60px;
+    margin:0 auto;
+    display: block;
+}
+.container .o_info .text{
+    text-align: center;
+    font-size: 16px;
+    color: #C7000B;
+    font-weight: bold;
+}
+.container .o_info .info{
+    margin: 30px auto;
+    width: 60%;
+    text-align: left;
+    white-space: nowrap;
+}
+@media screen and (max-width: 320px) {
+    .container .o_info .info{
+        margin: 30px auto;
+        width: 70%;
+        text-align: left;
+        white-space: nowrap;
+    }
+}
+.container .o_info .info .i{
+    margin: 5px 0;
+}
+.container .phone{
+    padding: 10px 0;
+}
+.container .phone .title{
+    margin: 10px 0;
+}
+.container .phone form .input_box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    width: 260px;
+    padding: 0 4px;
+    text-align: center;
+}
+.container .phone form .input_box label{
+    width: 100%;
+    white-space: nowrap;
+}
+.container .phone form .input_box input{
+    width: 8.75rem;
+    border: none;
+}
+.container .phone form .input_box input:focus { outline: none; }
+.container .phone form .input_box .ph{
+    width: 100%;
+    white-space: nowrap;
+}
+.container .phone form{
+    display: flex;
+    flex-direction: row;
+}
+.container .phone form .submit{
+    border: 1px solid gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    width: 40px;
+    white-space: nowrap;
+}
+.container .remark{
+    width: 100%;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.container .btns{
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    width: 160px;
+}
+.container .btns .btn{
+    margin-right: 20px;
+    width: 60px;
+    border: 1px solid gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
