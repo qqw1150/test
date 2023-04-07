@@ -51,8 +51,8 @@ body{font-size: 0.8125rem;color: #5A5657;}
 .container .o_info .info .i{
     margin: 5px 0;
 }
-.container .phone{
-    padding: 10px 0;
+.container .phone{ 
+    padding: 10px 0; 
 }
 .container .phone .title{
     margin: 10px 0;
